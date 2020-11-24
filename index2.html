@@ -1,0 +1,34 @@
+<html>
+<head>
+    </head>
+    <body>
+ <script>    
+var a;
+
+if (navigator.userAgent.search(/Safari/) > 0) {a = 'Вы пользуетесь Safari'};
+
+if (navigator.userAgent.search(/Firefox/) > 0) {a = 'Вы пользуетесь MozillaFirefox'};
+
+if (navigator.userAgent.search(/MSIE/) > 0 || navigator.userAgent.search(/NET CLR /) > 0) {a = 'Вы пользуетесь Internet Explorer'};
+
+if (navigator.userAgent.search(/Chrome/) > 0) {a = 'Вы пользуетесь Google Chrome'};
+
+if (navigator.userAgent.search(/YaBrowser/) > 0) {a = 'Вы пользуетесь Яндекс браузер'};
+
+if (navigator.userAgent.search(/OPR/) > 0) {a = 'Вы пользуетесь Opera'};
+
+if (navigator.userAgent.search(/Konqueror/) > 0) {a = 'Вы пользуетесь Konqueror'};
+
+if (navigator.userAgent.search(/Iceweasel/) > 0) {a = 'Вы пользуетесь Debian Iceweasel'};
+
+if (navigator.userAgent.search(/SeaMonkey/) > 0) {a = 'Вы пользуетесь SeaMonkey'};
+
+if (navigator.userAgent.search(/Edge/) > 0) {a = 'Вы пользуетесь Microsoft Edge'};
+
+alert(a);
+           
+</script>
+   
+
+    </body>
+</html>
